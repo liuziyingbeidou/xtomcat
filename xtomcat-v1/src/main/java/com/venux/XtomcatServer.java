@@ -21,7 +21,7 @@ import java.net.Socket;
  **/
 public class XtomcatServer {
 
-    public static final String WEB_ROOT = System.getProperty("user.dir") + File.separator + "webroot";
+    public static final String WEB_ROOT = System.getProperty("user.dir") + File.separator + "xtomcat-v1/webroot";
 
     private static final String SHUTDOWN_COMMAND = "/SHUTDOWN";
 
